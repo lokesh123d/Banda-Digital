@@ -12,7 +12,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const whatsappMessage = `Hello, My name is ${formData.name}.%0APhone: ${formData.phone}%0AService: ${formData.service}%0AMessage: ${formData.message}`;
-        window.open(`https://wa.me/917607033877?text=${whatsappMessage}`, '_blank');
+        window.open(`https://wa.me/919369794580?text=${whatsappMessage}`, '_blank');
     };
 
     const handleChange = (e) => {
@@ -48,7 +48,6 @@ const Contact = () => {
                                 <img src="https://img.icons8.com/fluency/96/phone.png" alt="Phone" className="info-icon-img" />
                                 <div className="info-content">
                                     <h4>Phone Numbers</h4>
-                                    <a href="tel:7607033877">7607033877</a>
                                     <a href="tel:9369794580">9369794580</a>
                                 </div>
                             </div>
@@ -73,7 +72,7 @@ const Contact = () => {
                                 <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp" className="info-icon-img" />
                                 <div className="info-content">
                                     <h4>WhatsApp</h4>
-                                    <a href="https://wa.me/917607033877" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/919369794580" target="_blank" rel="noopener noreferrer">
                                         Chat with us on WhatsApp
                                     </a>
                                 </div>

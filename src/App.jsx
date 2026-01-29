@@ -32,9 +32,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <CSCServices />
       <Services />
       <PricingPlans />
-      <CSCServices />
       <WhyChooseUs />
       <Contact />
       <Footer />

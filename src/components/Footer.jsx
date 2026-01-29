@@ -29,22 +29,21 @@ const Footer = () => {
                         <div className="footer-col">
                             <div className="footer-brand">
                                 <div className="brand-icon">
-                                    <span className="icon-letter">B</span>
+                                    <span className="icon-letter">G</span>
                                 </div>
                                 <div className="brand-text">
-                                    <h3 className="brand-name gradient-text">Banda Digital</h3>
-                                    <p className="brand-tagline">Marketing & Jan Seva Kendra</p>
+                                    <h3 className="brand-name gradient-text">Gramin Jan Seva Kendra</h3>
+                                    <p className="brand-tagline">Digital Advertising</p>
                                 </div>
                             </div>
                             <p className="footer-about">
-                                Adopt the best and most affordable digital marketing services.
+                                Adopt the best and most affordable digital advertising services.
                                 Promote your products & services to every household!
                             </p>
                             <div className="footer-contact">
                                 <div className="contact-item">
                                     <img src="https://img.icons8.com/fluency/32/phone.png" alt="Phone" className="contact-icon-small" />
                                     <div>
-                                        <a href="tel:7607033877">7607033877</a>
                                         <a href="tel:9369794580">9369794580</a>
                                     </div>
                                 </div>
@@ -118,7 +117,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-bottom-content">
                         <p className="copyright">
-                            © {currentYear} Banda Digital. All rights reserved.
+                            © {currentYear} Gramin Jan Seva Kendra. All rights reserved. | Created by <a href="#" style={{ fontWeight: 'bold', color: 'inherit', textDecoration: 'underline' }}>Lokesh</a>
                         </p>
                         <div className="footer-bottom-links">
                             <a href="#privacy">Privacy Policy</a>

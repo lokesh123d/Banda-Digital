@@ -18,14 +18,13 @@ const Hero = () => {
                     </div>
 
                     <h1 className="hero-title">
-                        <span className="gradient-text">Digital Marketing</span>
+                        <span className="gradient-text">Gramin Jan Seva Kendra</span>
                         <br />
-                        & Jan Seva Kendra
+                        & Digital Advertising
                     </h1>
 
                     <p className="hero-description">
-                        Grow your business with WhatsApp & SMS Marketing. Your trusted partner for government services,
-                        banking, and digital growth.
+                        Your trusted partner for government services, banking, and digital growth. Grow your business with WhatsApp & SMS Marketing.
                         <br />
                         <strong>Serving Banda, Uttar Pradesh.</strong>
                     </p>
@@ -64,7 +63,6 @@ const Hero = () => {
                             <img src="https://img.icons8.com/fluency/96/phone.png" alt="Phone" className="contact-icon-img" />
                             <div>
                                 <div className="contact-label">Call / WhatsApp</div>
-                                <a href="tel:7607033877" className="contact-value">7607033877</a>
                                 <a href="tel:9369794580" className="contact-value">9369794580</a>
                             </div>
                         </div>
@@ -73,20 +71,20 @@ const Hero = () => {
 
                 <div className="hero-visual">
                     <div className="visual-card card-1">
+                        <img src="https://img.icons8.com/fluency/96/services.png" alt="Gramin Seva" className="card-icon-img" />
+                        <div className="card-title">Gramin Seva</div>
+                        <div className="card-stats">
+                            <span>PAN, Aadhaar, Bills</span>
+                            <span className="gradient-text">All Services</span>
+                        </div>
+                    </div>
+
+                    <div className="visual-card card-2">
                         <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp Marketing" className="card-icon-img" />
                         <div className="card-title">WhatsApp Marketing</div>
                         <div className="card-stats">
                             <span>15,000 SMS</span>
                             <span className="gradient-text">₹3,150</span>
-                        </div>
-                    </div>
-
-                    <div className="visual-card card-2">
-                        <img src="https://img.icons8.com/fluency/96/services.png" alt="CSC Services" className="card-icon-img" />
-                        <div className="card-title">CSC Services</div>
-                        <div className="card-stats">
-                            <span>PAN, Aadhaar, Bills</span>
-                            <span className="gradient-text">All Services</span>
                         </div>
                     </div>
 

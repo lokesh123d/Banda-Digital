@@ -34,7 +34,7 @@ const ConnectModal = () => {
             `Please connect with me!`;
 
         // Open WhatsApp
-        window.open(`https://wa.me/917607033877?text=${whatsappMessage}`, '_blank');
+        window.open(`https://wa.me/919369794580?text=${whatsappMessage}`, '_blank');
 
         // Optional: Close modal after sending
         setIsOpen(false);

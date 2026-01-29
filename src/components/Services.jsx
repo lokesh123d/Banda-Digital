@@ -4,6 +4,18 @@ import './Services.css';
 const Services = () => {
     const services = [
         {
+            icon: 'https://img.icons8.com/fluency/96/museum.png',
+            title: 'Gramin Jan Seva Kendra',
+            description: 'One-stop solution for all government services, banking, and documentation needs.',
+            features: ['Aadhaar & PAN Services', 'Banking & Money Transfer', 'Bill Payments', 'Government Schemes']
+        },
+        {
+            icon: 'https://img.icons8.com/fluency/96/megaphone.png',
+            title: 'Digital Advertising',
+            description: 'Promote on Facebook, Instagram, YouTube, Gmail, LinkedIn, Twitter.',
+            features: ['Social media ads', 'Google Ads', 'Email marketing', 'Analytics & reporting']
+        },
+        {
             icon: 'https://img.icons8.com/fluency/96/whatsapp.png',
             title: 'WhatsApp Marketing',
             description: 'Bulk WhatsApp messages with banner/poster sharing. Reach thousands instantly.',
@@ -14,18 +26,6 @@ const Services = () => {
             title: 'SMS Services',
             description: 'Professional bulk SMS services for effective marketing campaigns.',
             features: ['500 SMS/day plans', 'Bulk plans available', 'Real-time delivery', 'Affordable rates']
-        },
-        {
-            icon: 'https://img.icons8.com/fluency/96/megaphone.png',
-            title: 'Digital Advertising',
-            description: 'Promote on Facebook, Instagram, YouTube, Gmail, LinkedIn, Twitter.',
-            features: ['Social media ads', 'Google Ads', 'Email marketing', 'Analytics & reporting']
-        },
-        {
-            icon: 'https://img.icons8.com/fluency/96/target.png',
-            title: 'Targeted Marketing',
-            description: 'Reach your exact audience with location and demographic targeting.',
-            features: ['Local targeting', 'Age/Gender filters', 'Interest-based', 'ROI tracking']
         }
     ];
 
